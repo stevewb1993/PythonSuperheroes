@@ -37,6 +37,7 @@ This project takes data from the kaggle marvel superheroes dataset and aims to j
 - Data Validation steps on the input data
 
 ## Querying the data
+- The output contains one row per character, with each row containing categorical data, followed by the Comics column which is a JSON array, with each JSON containing data for a comic the character appeared in
 - Once the data is landed in postgres, the comic data can be queried by using json_to_recordset, for example:
   ```
     SELECT 
