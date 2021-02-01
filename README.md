@@ -3,7 +3,7 @@
 This project takes data from the kaggle marvel superheroes dataset and aims to join relevant data into a document structure to be saved down as a file and to PostreSQL.
 
 ## Installation
-- Create docker container for PostreSQL
+- Create docker container for PostreSQL (the below creates a local PostgreSQL instance with default values for the database name (postgres) and username (postgres))
   ```
   docker run --rm --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres
   ```
