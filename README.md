@@ -35,6 +35,7 @@ This project takes data from the kaggle marvel superheroes dataset and aims to j
 - Incorporate character data for characters in the character_stats, character_info, and superhero_power_matrix tables
 - Incorporate the Marvel_DC_Characters dataset
 - Data Validation steps on the input data
+- Create path for output of parquet file if the path does not already exist
 
 ## Querying the data
 - The output contains one row per character, with each row containing categorical data, followed by the Comics column which is a JSON array, with each JSON containing data for a comic the character appeared in
